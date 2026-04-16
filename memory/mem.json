@@ -1,0 +1,10 @@
+{
+  "type": "memory",
+  "nodes": [
+    {
+      "pdf": "examples\\workspace\\12345678-abcd-4321-abcd-123456789abc.json",
+      "pages": "1-5",
+      "summary": "\"Attention Residuals\" (AttnRes) replaces fixed residual accumulation with learned softmax attention, addressing issues like hidden-state growth. \"Block AttnRes\" partitions layers into blocks, reducing memory and communication overhead. This approach improves training dynamics, gradient distribution, and downstream task performance, with scalable infrastructure optimizations for large-scale training."
+    }
+  ]
+}
