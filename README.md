@@ -145,7 +145,7 @@ print(answer)
 
 The OpenAI Agents SDK integration is included but **commented out** by default. To enable it:
 
-1. Uncomment the `openai-agents` line in `requirements.txt`
+1. Uncomment the `openai-agents` line in `requirements.txt` and openai sdk functions in in `examples/agentic_vectorless_rag_demo.py`
 2. Install:
    ```bash
    pip3 install openai-agents
@@ -433,13 +433,3 @@ This project depends entirely on [PageIndex](https://github.com/VectifyAI/PageIn
 
 ---
 
-## License
-
-FreqRAG is released under the MIT License.
-PageIndex is subject to its own license — see [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) for terms.
-
----
-
-<div align="center">
-Built on <a href="https://github.com/VectifyAI/PageIndex">PageIndex</a> by <a href="https://vectify.ai">Vectify AI</a>
-</div>
